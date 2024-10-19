@@ -3,6 +3,20 @@
     padding: 0;
 }
 
+main {
+    padding: 30px;
+}
+
 .grid {
     display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: 50px repeat(3, 80px) 60px;
+}
+
+.square {
+    background-color: red;
+}
+
+.turn {
+    background-color: green;
 }
