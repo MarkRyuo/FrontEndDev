@@ -20,3 +20,7 @@ main {
 .turn {
     background-color: green;
 }
+
+.actions {
+    background-color: yellow;
+}
