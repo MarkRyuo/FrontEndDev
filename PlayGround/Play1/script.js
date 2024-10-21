@@ -1,3 +1,3 @@
 
 
-document.getElementById("navBar").innerHTML = "<h1>NavBar</h1>" ;
+document.getElementById("nav").innerHTML = "<h1>NavBar</h1>" ;
