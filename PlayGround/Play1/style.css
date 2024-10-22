@@ -13,6 +13,7 @@ body {
     "nav nav"
     "aside main"
     "footer footer";
+    height: 100vh;
 }
 
 nav {
