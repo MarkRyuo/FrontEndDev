@@ -18,16 +18,21 @@ body {
 
 nav {
     grid-area: nav;
+    background-color: aqua;
+    position: sticky;
 }
 
 aside {
     grid-area: aside;
+    background-color: aquamarine;
 }
 
 main {
     grid-area: main;
+    background-color: azure;
 }
 
 footer {
     grid-area: footer;
+    background-color: cadetblue;
 }
