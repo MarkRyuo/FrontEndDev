@@ -7,11 +7,12 @@
 
 body {
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: auto 1fr auto; /* top(auto), middle(1fr), bottom(auto)*/
+    grid-template-columns: auto 3fr;
 
     grid-template-areas: 
-    header header;
+    "header header",
+    nav nav;
 }
 
 header {
