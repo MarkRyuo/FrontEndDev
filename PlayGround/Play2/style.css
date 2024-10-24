@@ -18,3 +18,8 @@ header {
 nav {
     grid-area: nav;
 }
+
+section {
+    grid-area: section;
+}
+
