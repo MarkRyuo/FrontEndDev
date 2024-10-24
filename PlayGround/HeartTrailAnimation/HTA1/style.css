@@ -10,11 +10,12 @@ body {
 }
 
 span {
-    background-color: url("../assets/4096575_heart_like_love_icon.png");
+    background: url("../assets/4096575_heart_like_love_icon.png");
     width: 100px;
     height: 100px;
     position: absolute;
     background-size: cover;
     left: 50%;
     top: 50%;
+    transform: translate(-50%, -50%);
 }
