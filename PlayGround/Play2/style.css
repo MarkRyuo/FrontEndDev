@@ -26,3 +26,11 @@ section {
 aside {
     grid-area: aside;
 }
+
+article {
+    grid-area: article;
+}
+
+footer {
+    grid-area: footer;
+}
