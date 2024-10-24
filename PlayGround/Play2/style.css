@@ -9,7 +9,7 @@
 body {
     display: grid;
     grid-template-rows: auto auto 1fr 1fr auto; /* top(auto), middle(1fr), bottom(auto)*/
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr; /* 2 rows first size 3fr, 2nd col 1fr  */
 
     grid-template-areas: 
     "header header"
