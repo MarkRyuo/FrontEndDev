@@ -1,5 +1,5 @@
 const bodyEl = document.querySelector("body") ;
 
-bodyEl.addEventListener("mousemove", () => {
-    console.log("moved")
+bodyEl.addEventListener("mousemove", (event) => {
+    console.log(event.off)
 })
