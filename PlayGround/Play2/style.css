@@ -7,8 +7,8 @@
 
 body {
     display: grid;
-    grid-template-rows: auto 1fr auto; /* top(auto), middle(1fr), bottom(auto)*/
-    grid-template-columns: 1fr 3fr;
+    grid-template-rows: auto auto 1fr 1fr auto; /* top(auto), middle(1fr), bottom(auto)*/
+    grid-template-columns: 3fr 1fr;
 
     grid-template-areas: 
     "header header"
@@ -23,11 +23,17 @@ body {
 header {
     grid-area: header;
     background-color: aqua;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
 }
 
 nav {
     grid-area: nav;
     background-color: beige;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
 }
 
 section {
@@ -42,8 +48,10 @@ aside {
 
 article {
     grid-area: article;
+    background-color: azure;
 }
 
 footer {
     grid-area: footer;
+    background-color: cadetblue;
 }
