@@ -54,10 +54,12 @@ article {
     grid-area: article;
     background-color: azure;
     width: 100%;
-        padding: 20px;
+    padding: 20px;
 }
 
 footer {
     grid-area: footer;
     background-color: cadetblue;
+    width: 100%;
+        padding: 20px;
 }
