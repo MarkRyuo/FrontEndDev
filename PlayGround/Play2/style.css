@@ -39,16 +39,22 @@ nav {
 section {
     grid-area: section;
     background-color: aqua;
+    width: 100%;
+    padding: 20px;
 }
 
 aside {
     grid-area: aside;
     background-color: aquamarine;
+    width: 100%;
+    padding: 20px;
 }
 
 article {
     grid-area: article;
     background-color: azure;
+    width: 100%;
+        padding: 20px;
 }
 
 footer {
