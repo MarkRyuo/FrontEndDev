@@ -23,3 +23,6 @@ section {
     grid-area: section;
 }
 
+aside {
+    grid-area: aside;
+}
