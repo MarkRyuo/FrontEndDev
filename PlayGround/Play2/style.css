@@ -46,6 +46,7 @@ section {
 aside {
     grid-area: aside;
     background-color: aquamarine;
+    box-sizing: border-box;
     width: 100%;
     padding: 20px;
 }
@@ -53,6 +54,7 @@ aside {
 article {
     grid-area: article;
     background-color: azure;
+    box-sizing: border-box;
     width: 100%;
     padding: 20px;
 }
@@ -60,6 +62,7 @@ article {
 footer {
     grid-area: footer;
     background-color: cadetblue;
+    box-sizing: border-box;
     width: 100%;
-        padding: 20px;
+    padding: 20px;
 }
