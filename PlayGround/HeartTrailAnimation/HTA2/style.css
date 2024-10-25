@@ -25,5 +25,9 @@ span {
 @keyframes animate {
     0% {
         transform: translate(-50%, -50%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(-50%, -);
     }
 }
