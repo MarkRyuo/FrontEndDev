@@ -24,6 +24,6 @@ span {
 
 @keyframes animate {
     0% {
-        
+        transform: translate(-50%, -50%);
     }
 }
