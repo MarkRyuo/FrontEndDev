@@ -1,5 +1,6 @@
 const mainL = document.addEventListener("main") ;
 
 mainL.document.addEventListener("mousemove", (event) => {
-    const posX = even.offsetX ;
+    const posX = event.offsetX ;
+    const posY = event.offsetY ;
 })
