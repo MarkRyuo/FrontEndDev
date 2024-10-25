@@ -12,8 +12,8 @@ mainEl.document.addEventListener("mousemove", (event) => {
     const size = Math.random() * 100 ; //* Add a random number to size the newly created span
     spanEl.style.width = size + 'px' ;
 
-    setTimeout(() => {{
+    setTimeout(() => {
         
-    }})
+    })
 
 })
