@@ -8,7 +8,7 @@ bodyEl.addEventListener("mousemove", (event) => {
     spanEl.style.top = yPos + "px" ;
     bodyEl.appendChild(spanEl) ;
     const size = Math.random() * 100 ;
-    spanEl.style.width = size 
+    spanEl.style.width = size + "px" ;
 
     setTimeout(() => {
         spanEl.remove() ;
