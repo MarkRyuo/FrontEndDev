@@ -1,4 +1,4 @@
-const mainEl = document.addEventListener("main") ;
+const mainEl = document.querySelector("main") ;
 
 mainEl.document.addEventListener("mousemove", (event) => {
     const posX = event.offsetX ;
