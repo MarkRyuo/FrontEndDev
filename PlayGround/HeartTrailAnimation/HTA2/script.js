@@ -5,4 +5,6 @@ mainEl.document.addEventListener("mousemove", (event) => {
     const posY = event.offsetY ;
     const spanEL = document.createElement("span")
     mainEl.appendChild("spanEl")
+
+    
 })
