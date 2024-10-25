@@ -11,7 +11,7 @@ mainEl.document.addEventListener("mousemove", (event) => {
     spanEl.style.top = posX + 'px' ; //* design the posX to the top
     spanEl.style.left = posY + 'px' ; //* design the posY to the left
     const size = Math.random() * 100 ; //* Add a random number to size the newly created span
-    spanEl.style.width = size + 'px' ;
+    spanEl.style.width = size + 'px' ; //* randomly sizing the span
 
     setTimeout(() => {
         spanEl.remove()
