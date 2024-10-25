@@ -9,7 +9,7 @@ bodyEl.addEventListener("mousemove", (event) => {
     bodyEl.appendChild(spanEl) ;
 
     setTimeout(() => {
-
+        spanEl.remove
     }, 3000)
 
 })
