@@ -8,4 +8,6 @@ bodyEl.addEventListener("mousemove", (event) => {
     spanEl.style.top = yPos + "px" ;
     bodyEl.appendChild(spanEl) ;
 
+    setTimeout(() => )
+
 })
