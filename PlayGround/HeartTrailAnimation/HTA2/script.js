@@ -7,5 +7,5 @@ mainEl.document.addEventListener("mousemove", (event) => {
     mainEl.appendChild("spanEl")
 
     spanEl.style.top = posX + 'px' ;
-    spanEl
+    spanEl.style.left = posY + 'px'
 })
