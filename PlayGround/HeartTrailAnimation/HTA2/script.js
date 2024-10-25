@@ -7,6 +7,6 @@ mainEl.document.addEventListener("mousemove", (event) => {
     mainEl.appendChild("spanEl") //* Append to the main element the newly created span
 
     spanEl.style.top = posX + 'px' ; //* design the posX to the top
-    spanEl.style.left = posY + 'px' ;
+    spanEl.style.left = posY + 'px' ; //* design the posY to the left
 
 })
