@@ -6,5 +6,5 @@ mainEl.document.addEventListener("mousemove", (event) => {
     const spanEL = document.createElement("span")
     mainEl.appendChild("spanEl")
 
-    spanEL.style.top = spanEL + 'px'
+    spanEL.style.top = posX + 'px' ;
 })
