@@ -13,7 +13,7 @@ mainEl.document.addEventListener("mousemove", (event) => {
     spanEl.style.width = size + 'px' ;
 
     setTimeout(() => {
-        
-    })
+        spanEl.remove()
+    }, 3000)
 
 })
