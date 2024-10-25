@@ -6,8 +6,11 @@
 main {
     height: 100vh;
     background-color: black;
+    overflow: hidden;
 }
 
 span {
     background: url("../assets/Pic.jpg");
+    width: 200px;
+    height: 200px;
 }
