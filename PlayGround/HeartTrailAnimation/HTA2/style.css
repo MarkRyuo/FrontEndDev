@@ -4,5 +4,9 @@
 }
 
 main {
-    background-color: aliceblue;
+    background-color: black;
+}
+
+span {
+    background: url("../assets/Pic.jpg");
 }
