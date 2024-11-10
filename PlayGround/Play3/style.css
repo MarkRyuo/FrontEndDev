@@ -23,6 +23,7 @@ div {
     height: 100px;
 }
 
+/* ? pseudo first-child */
 div:first-child {
     background-color: cadetblue;
 }
