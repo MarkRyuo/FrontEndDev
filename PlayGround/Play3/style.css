@@ -16,6 +16,8 @@ main {
     height: 50vh;
     padding: 20px;
 }
+
 div:first-child {
     background-color: cadetblue;
 }
+
