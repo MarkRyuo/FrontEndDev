@@ -11,7 +11,9 @@
 
 
 main {
-    border: ;
+    border: 1px solid;
+    width: 100vw;
+    height: 50vh;
 }
 div:first-child {
     background-color: cadetblue;
