@@ -33,5 +33,10 @@ div:last-child {
     background-color: aqua;
 }
 
-/* ? pseudo first child of another element*/
+/* ? pseudo first child of another element */
+div:first-child span {
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+}
 
