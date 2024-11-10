@@ -18,7 +18,9 @@ main {
 }
 
 div {
-    wi
+    border: 1px solid ;
+    width: 100px;
+    
 }
 
 div:first-child {
