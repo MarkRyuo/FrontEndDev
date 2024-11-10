@@ -35,7 +35,7 @@ div:last-child {
 }
 
 /* ? pseudo first child of another element */
-div:first-child span {
+div:first-child p {
     border: 1px solid;
     height: 40px;
     width: 40px;
