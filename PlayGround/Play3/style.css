@@ -8,8 +8,11 @@
     padding: 0;
 }
 
+
+
 main {
-    div:first-child {
-        background-color: ;
-    }
+    border: ;
+}
+div:first-child {
+    background-color: cadetblue;
 }
