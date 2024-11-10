@@ -1,0 +1,43 @@
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+main {
+    border: 1px solid;
+    width: 100vw;
+    height: 50vh;
+    padding: 20px;
+}
+
+div {
+    border: 1px solid ;
+    width: 100px;
+    height: 100px;
+}
+
+/* ? pseudo first-child */
+div:first-child {
+    background-color: cadetblue;
+    padding: 29px;
+}
+
+/* ? pseudo last-child */
+div:last-child {
+    background-color: aqua;
+}
+
+/* ? pseudo first child of another element */
+div:first-child p {
+    border: 1px solid;
+    height: 40px;
+    width: 40px;
+}
+
