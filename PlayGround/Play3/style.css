@@ -28,6 +28,7 @@ div:first-child {
     background-color: cadetblue;
 }
 
+/* ? pseudo last-child */
 div:last-child {
     background-color: aqua;
 }
