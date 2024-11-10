@@ -26,6 +26,7 @@ div {
 /* ? pseudo first-child */
 div:first-child {
     background-color: cadetblue;
+    padding: 10px;
 }
 
 /* ? pseudo last-child */
